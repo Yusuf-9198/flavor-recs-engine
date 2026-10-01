@@ -1,0 +1,8 @@
+Flask>=3.0,<4
+pandas>=2.2,<3
+numpy>=1.26,<3
+scikit-learn>=1.5,<2
+scipy>=1.11,<2
+nltk>=3.8,<4
+geojson>=3.0.0,<4
+gunicorn>=22,<24

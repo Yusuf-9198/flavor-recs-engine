@@ -1,0 +1,26 @@
+version: "3.9"
+
+services:
+  restaurant-recommender:
+    build:
+      context: .
+    container_name: restaurant-recommender
+    expose:
+      - "8000"
+    environment:
+      PORT: 8000
+      GUNICORN_WORKERS: 2
+      GUNICORN_THREADS: 2
+      GUNICORN_LOG_LEVEL: info
+    restart: unless-stopped
+
+  nginx:
+    image: nginx:1.27-alpine
+    container_name: restaurant-nginx
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    depends_on:
+      - restaurant-recommender
+    restart: unless-stopped

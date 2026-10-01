@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "restaurant-recommendation-system"
+version = "1.0.0"
+description = "Restaurant recommendation engine with KMeans clustering and TF-IDF scoring"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "Flask>=3.0,<4",
+  "pandas>=2.2,<3",
+  "numpy>=1.26,<3",
+  "scikit-learn>=1.5,<2",
+  "scipy>=1.11,<2",
+  "nltk>=3.8,<4",
+  "geojson>=3.0.0,<4",
+  "gunicorn>=22,<24",
+]
+
+[tool.setuptools]
+packages = ["Foodiefy"]

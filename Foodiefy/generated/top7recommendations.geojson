@@ -1,0 +1,110 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    -75.134989,
+                    39.970799
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Italian, Specialty Food, Pizza, Food, Restaurants, Nightlife, Bars, Juice Bars & Smoothies",
+                "name": "Pizzeria Beddia",
+                "rating": "4.0"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -75.14095,
+                    39.962006
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Pizza, Restaurants",
+                "name": "Spuntino Wood Fired Pizza",
+                "rating": "4.5"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -75.128097,
+                    39.980675
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Restaurants, Pizza, Specialty Food, Museums, Food, Arts & Entertainment",
+                "name": "Pizza Brain",
+                "rating": "4.0"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -75.135062,
+                    39.971709
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Restaurants, Tapas/Small Plates, Italian, Szechuan, Cocktail Bars, Pizza, Chinese, Bars, Nightlife",
+                "name": "Wm Mulherin's Sons",
+                "rating": "4.5"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -75.145023,
+                    39.948578
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Bars, Gelato, Breakfast & Brunch, Italian, Food, Nightlife, Restaurants, Pizza",
+                "name": "Capofitto",
+                "rating": "4.5"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -75.146124,
+                    39.950001
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Burgers, American (New), Restaurants, Breakfast & Brunch",
+                "name": "Fork",
+                "rating": "4.0"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -75.144505,
+                    39.971548
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "American (New), Restaurants, Food",
+                "name": "Helm",
+                "rating": "4.5"
+            },
+            "type": "Feature"
+        }
+    ],
+    "type": "FeatureCollection"
+}
